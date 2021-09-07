@@ -90,7 +90,7 @@ class DumpSecrets:
         self.__history = False
         self.__noLMHash = True
         self.__isRemote = True
-        self.__outputFileName = outputFile
+        self.__outputFileName = outputFile + "_" + remoteName
         self.__doKerberos = False
         self.__justDC = False
         self.__justDCNTLM = False
